@@ -49,19 +49,24 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
 }
-section {
+/* section {
     margin: 20px auto;
     padding: 20px;
     background: #ffffff;
     border-radius: 8px;
     max-width: 800px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+} */
 section#intro {
     padding: 20px;
     text-align: center;
     background-color: #fff;
     border-radius: 10px;
+    display: block; /* Ensure it's displayed */
+    padding: 20px;
+    min-height: 100vh; /* Ensure it takes up the full height of the viewport */
+    box-sizing: border-box;
+    overflow: auto;
 }
 footer {
     background-color: #333;
@@ -83,14 +88,14 @@ footer {
     border-radius: 50%;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
-section {
+    section {
     padding: 40px;
     background-color: #fff;
     margin: 20px auto;
     border-radius: 10px;
     max-width: 800px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+} 
 .about-section {
    background-color: #f9f9f9;
    padding: 40px;
@@ -227,6 +232,10 @@ html {
         padding: 15px;
         margin: 15px;
         max-width: 90%; /* Reduce width on smaller screens */
+    } 
+    section#intro {
+        padding: 10px; /* Reduce padding for smaller screens */
+        min-height: auto; /* Allow height to adjust based on content */
     }
 
     h2 {
@@ -244,13 +253,13 @@ html {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 300px) {
     body {
         font-size: 0.9em; /* Scale down body text for small phones */
     }
 
     h2 {
-        font-size: 1.5em; /* Further reduce heading size */
+        font-size: 1em; /* Further reduce heading size */
     }
 
     #about li {
