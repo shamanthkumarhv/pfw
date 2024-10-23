@@ -1,4 +1,4 @@
-*{
+/* /* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,7 +7,7 @@ html, body {
       font-family: 'Montserrat', sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #e0f7fa; /* Light blue background */
+      background-color: #e0f7fa; /* Light blue background *
       color: #333;
       line-height: 1.6;  
       max-width: 100%;
@@ -58,15 +58,15 @@ nav ul li a {
     border-radius: 8px;
     max-width: 800px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-} */
+} *
 section#intro {
     padding: 20px;
     text-align: center;
     background-color: #fff;
     border-radius: 10px;
-    display: block; /* Ensure it's displayed */
+    display: block; /* Ensure it's displayed *
     padding: 20px;
-    min-height: 100vh; /* Ensure it takes up the full height of the viewport */
+    min-height: 100vh; /* Ensure it takes up the full height of the viewport *
     box-sizing: border-box;
     overflow: auto;
     max-width: 100% ;
@@ -77,7 +77,7 @@ footer {
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
-}
+}*/
 /* About Section */
 #about ul {
     margin-top: 10px;
@@ -139,7 +139,7 @@ footer {
 .project p {
     color: #666;
     font-size: 1em;
-}
+}*/*
 h2 {
     color: #0056b3;
     text-align: center;
@@ -148,10 +148,10 @@ h2 {
 }
 h2, a {
     color: #00796b;
-    text-decoration: none; /* Teal for headings and links */
+    text-decoration: none; /* Teal for headings and links *
 }
 a:hover {
-    color: #004d40; /* Darker teal on hover */
+    color: #004d40; /* Darker teal on hover *
 }
 
 h3 {
@@ -160,7 +160,7 @@ h3 {
 }
 
 
-/* Contact Section */
+/* Contact Section *
 #contact ul {
     text-align: center;
     margin-top: 10px;
@@ -183,7 +183,7 @@ h3 {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 .project h3:hover {
-    color: #ff5722; /* Highlight project titles on hover */
+    color: #ff5722; /* Highlight project titles on hover *
 }
 
 
@@ -229,20 +229,20 @@ html {
         background-color: #0056b3;
     }
 }
-/* Responsive Design for Mobile Devices */
+/* Responsive Design for Mobile Devices *
 @media (max-width: 768px) {
     section {
         padding: 15px;
         margin: 15px;
-        max-width: 90%; /* Reduce width on smaller screens */
+        max-width: 90%; /* Reduce width on smaller screens *
     } 
     section#intro {
-        padding: 10px; /* Reduce padding for smaller screens */
-        min-height: auto; /* Allow height to adjust based on content */
+        padding: 10px; /* Reduce padding for smaller screens *
+        min-height: auto; /* Allow height to adjust based on content *
     }
 
     h2 {
-        font-size: 1.8em; /* Scale down heading size */
+        font-size: 1.8em; /* Scale down heading size *
     }
 
     #contact ul li {
@@ -258,11 +258,11 @@ html {
 
 @media (max-width: 300px) {
     body {
-        font-size: 0.9em; /* Scale down body text for small phones */
+        font-size: 0.9em; /* Scale down body text for small phones *
     }
 
     h2 {
-        font-size: 1em; /* Further reduce heading size */
+        font-size: 1em; /* Further reduce heading size *
     }
 
     #about li {
@@ -278,12 +278,12 @@ html {
         margin: 10px;
     }
 }
-/* Media Queries for Specific Breakpoints */
+/* Media Queries for Specific Breakpoints *
 @media (max-width: 1080px) {
     section {
         padding: 15px;
         margin: 15px;
-        max-width: 95%; /* Adjust sections for Vivo screen size */
+        max-width: 95%; /* Adjust sections for Vivo screen size *
     }
 }
 
@@ -297,7 +297,7 @@ html {
         font-size: 1.6em;
     }
 
-    /* Stack Contact Section Links */
+    /* Stack Contact Section Links *
     #contact ul {
         flex-direction: column;
         align-items: center;
@@ -310,10 +310,10 @@ html {
 
     #contact ul li a {
         padding: 10px;
-        width: 90%; /* Make buttons fit mobile screens */
+        width: 90%; /* Make buttons fit mobile screens *
         text-align: center;
     }
-}
+} *
 /* img {
     max-width: 100%;
     height: auto;
@@ -321,4 +321,457 @@ html {
 
 button, a {
     width: 100%; /* Use percentage widths to fit mobile screens */
-/* } */  
+/* } */  /* Global Styling *
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Section Styling *
+section 
+    margin-bottom: 40px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+/* About Section *
+#about p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+#about ul {
+    list-style: none;
+    padding: 0;
+}
+
+#about ul li {
+    background: #ececec;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Projects Section *
+#projects .project {
+    margin-bottom: 20px;
+}
+
+#projects a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+#projects a:hover {
+    text-decoration: underline;
+}
+
+/* Blog Section *
+.blog-post {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 10px 0;
+    border-left: 5px solid #007BFF;
+}
+
+.blog-post h3 a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.blog-post h3 a:hover {
+    text-decoration: underline;
+}
+
+/* Goals Section *
+#goals ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#goals ul li {
+    margin-bottom: 10px;
+}
+
+/* Contact Section *
+#contact ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+#contact ul li {
+    margin: 10px 20px;
+}
+
+#contact a {
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+}
+
+#contact a:hover {
+    background-color: #0056b3;
+}
+* Certifications Section *
+#certifications ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+* Responsive Media Queries *
+@media (max-width: 768px) {
+    h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    p, li {
+        font-size: 1em;
+    }
+
+    #contact ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contact ul li {
+        margin-bottom: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #contact ul li a {
+        width: 90%;
+    }
+
+    section {
+        padding: 15px;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.8em;
+    }
+
+    h3 {
+        font-size: 1.3em;
+    }
+
+    p, li {
+        font-size: 0.9em;
+    }
+
+    #contact ul li {
+        margin-bottom: 8px;
+    }
+
+    #contact ul li a {
+        padding: 8px 12px;
+        font-size: 0.9em;
+    }
+
+    section {
+        padding: 10px;
+        margin: 5px;
+    }
+} */
+/* Global Styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 1.2em;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+/* About Section */
+#about p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+#about ul {
+    list-style: none;
+    padding: 0;
+}
+
+#about ul li {
+    background: #ececec;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Projects Section */
+#projects .project {
+    margin-bottom: 20px;
+}
+
+#projects a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+#projects a:hover {
+    text-decoration: underline;
+}
+
+/* Blog Section */
+.blog-post {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 10px 0;
+    border-left: 5px solid #007BFF;
+}
+
+.blog-post h3 a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.blog-post h3 a:hover {
+    text-decoration: underline;
+}
+
+/* Goals Section */
+#goals ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#goals ul li {
+    margin-bottom: 10px;
+}
+
+/* Contact Section */
+#contact ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+#contact ul li {
+    margin: 10px 20px;
+}
+
+#contact a {
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+}
+
+#contact a:hover {
+    background-color: #0056b3;
+}
+
+/* Certifications Section */
+#certifications ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background: #007BFF;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    p, li {
+        font-size: 1em;
+    }
+
+    #contact ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contact ul li {
+        margin-bottom: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #contact ul li a {
+        width: 90%;
+    }
+
+    section {
+        padding: 15px;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    header nav ul li a {
+        font-size: 1em;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    h3 {
+        font-size: 1.3em;
+    }
+
+    p, li {
+        font-size: 0.9em;
+    }
+
+    #contact ul li {
+        margin-bottom: 8px;
+    }
+
+    #contact ul li a {
+        padding: 8px 12px;
+        font-size: 0.9em;
+    }
+
+    section {
+        padding: 10px;
+        margin: 5px;
+    }
+}
