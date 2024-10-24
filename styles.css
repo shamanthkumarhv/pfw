@@ -7,7 +7,6 @@
     margin-bottom: 8px;
 }
 #about img {
-    display: block;
     border-radius: 50%;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
@@ -25,21 +24,20 @@
    border-radius: 8px;
 }
 .about-content {
-    display: flex;
-    align-items: center;
+  display: grid;
+  place-items: center;
+   
 }
 .profile-photo {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin-right: 20px;
+  
 }
 .about-skills {
     padding: 20px;
 }
-.about-text {
-    max-width: 600px;
-}
+
 .about-text p {
     margin: 10px 0;
 }
@@ -75,6 +73,7 @@ body {
     padding: 20px;
     max-width: 100%;
     overflow-x: hidden;
+    text-align: center;
 }
 
 /* Header Styling */
@@ -87,6 +86,8 @@ header h1 {
     font-size: 2.5em;
     margin-bottom: 10px;
     color: #333;
+    background-color: #a2b6c0;
+    border-radius: 5px;
 }
 
 header nav ul {
@@ -104,10 +105,14 @@ header nav ul li a {
     text-decoration: none;
     color: #007BFF;
     font-size: 1.2em;
+    border-radius:5px;
+    padding: 10px 15px;
+    font-weight: bold;
 }
 
 header nav ul li a:hover {
-    text-decoration: underline;
+   background-color:white;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Section Styling */
@@ -137,6 +142,7 @@ h3 {
     font-size: 1.2em;
     margin-bottom: 15px;
     line-height: 1.5;
+    text-align: center;
 }
 
 #about ul {
@@ -159,10 +165,15 @@ h3 {
 #projects a {
     text-decoration: none;
     color: #007BFF;
+    padding: 3px 5px;
+    border-radius: 5px;
 }
 
 #projects a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    background-color: #d0e8ff;
+    color: #0056b3;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Blog Section */
@@ -215,6 +226,7 @@ h3 {
 
 #contact a:hover {
     background-color: #0056b3;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 /* Certifications Section */
@@ -223,13 +235,26 @@ h3 {
     padding-left: 20px;
 }
 
+.b2t {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 10px 15px;
+    color: #007BFF;
+}
+.b2t:hover{
+    background-color:white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #0056b3;
+}
 /* Footer */
 footer {
     text-align: center;
     margin-top: 40px;
     padding: 20px;
-    background: #007BFF;
+    background: #48515a;
     color: white;
+    border-radius: 5px;
 }
 
 footer a {
@@ -323,3 +348,42 @@ footer a:hover {
         margin: 5px;
     }
 }
+
+input[type="submit"] {
+
+    color:#0056b3; /* Green background */
+  
+    background-color: white; /* White text */
+  
+     /* Remove default border */
+  
+    padding: 5px 10px; /* Add padding */
+  
+    text-align: center;
+  
+    text-decoration: none;
+
+    border-radius: 5px;
+  
+    display: inline-block;
+  
+    font-size: 16px;
+  
+    margin: 4px 2px;
+  
+    cursor: pointer; /* Change cursor to pointer on hover */
+  
+  }
+  
+  
+  
+  /* Optional: Hover effect */
+  
+  input[type="submit"]:hover {
+  
+ /* Slightly darker green on hover */
+    color:white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #0056b3;
+  }
+  
